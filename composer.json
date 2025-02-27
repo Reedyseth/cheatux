@@ -1,0 +1,12 @@
+{
+    "name": "reedyseth/cheatux",
+    "description": "Linux commands cheat sheet by using line commands.",
+    "type": "project",
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Reedyseth"
+        }
+    ],
+    "require": {}
+}
