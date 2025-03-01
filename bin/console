@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+use Cheatux\Kernel;
+
+$kernel = new Kernel();
+$kernel->run();

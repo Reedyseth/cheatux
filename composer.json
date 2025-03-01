@@ -8,5 +8,13 @@
             "name": "Reedyseth"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/console": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cheatux\\": "src/"
+        }
+    },
+    "bin": ["bin/console"]
 }
