@@ -1,0 +1,298 @@
+{
+  "grep": [
+    {
+      "example": "grep --help",
+      "description": "Display the help information for grep."
+    },
+    {
+      "example": "grep --version",
+      "description": "Show the installed version of grep."
+    },
+    {
+      "example": "grep \"search_term\" info.txt",
+      "description": "Look for specific term in a document"
+    },
+    {
+      "example": "grep -i \"search_term\" document. txt",
+      "description": "Perform a case-insensitive search for a term."
+    },
+    {
+      "example": "grep -v \"exclude_term\" document.txt",
+      "description": "Display lines that do not contain the specified term."
+    },
+    {
+      "example": "grep -c \"count_term\" document. txt",
+      "description": "Count how many lines contain the specified term."
+    },
+    {
+      "example": "grep -l \"find_term\" *. txt",
+      "description": "List files that contain the specified term."
+    },
+    {
+      "example": "grep -L \"missing_term\" *. txt",
+      "description": "Identify files that do not contain the specified term."
+    },
+    {
+      "example": "grep -w \"whole_word\" document. txt",
+      "description": "Match only whole words in the document."
+    },
+    {
+      "example": "grep -x \"exact_line\" document. txt",
+      "description": "Match lines that exactly match the specified text."
+    },
+    {
+      "example": "grep -o \"only_match\" document. txt",
+      "description": "Display only the part of the line that matches the term."
+    },
+    {
+      "example": "grep -n \"numbered_term\" document. txt",
+      "description": "Show line numbers along with matching lines."
+    },
+    {
+      "example": "grep -A 2 \"after_term\" document. txt",
+      "description": "Display 2 lines following each match."
+    },
+    {
+      "example": "grep -B 2 \"before_term\" document. txt",
+      "description": "Display 2 lines preceding each match."
+    },
+    {
+      "example": "grep -C 2 \"context_term\" document. txt",
+      "description": "Display 2 lines before and after each match."
+    },
+    {
+      "example": "grep -E \"regex_pattern\" document. txt",
+      "description": "Use extended regular expressions for searching."
+    },
+    {
+      "example": "grep -F \"fixed_string\" document. txt",
+      "description": "Search for a fixed string without regex."
+    },
+    {
+      "example": "grep -p \"perl_regex\" document. txt",
+      "description": "Use Perl-compatible regular expressions."
+    },
+    {
+      "example": "grep --include=\"*.log\" \"error_message\" /var/log/",
+      "description": "Search for error messages in log files."
+    },
+    {
+      "example": "rep --exclude=\"*.tmp\" \"search_term\" *",
+      "description": "Exclude temporary files from the search."
+    }
+  ],
+  "docker": [
+    {
+      "example": "docker version",
+      "description": "Show Docker client and server version."
+    },
+    {
+      "example": "docker info",
+      "description": "Display detailed system-wide information."
+    },
+    {
+      "example": "docker help",
+      "description": "Get help on Docker commands.\n"
+    },
+    {
+      "example": "docker search <image>",
+      "description": "Search Docker Hub for images."
+    },
+    {
+      "example": "docker images",
+      "description": "List locally stored images."
+    },
+    {
+      "example": "docker pull <image>",
+      "description": "Download an image from a registry."
+    },
+    {
+      "example": "docker rmi <image>",
+      "description": "Remove an image from local storage."
+    },
+    {
+      "example": "docker build -t <image> <path>",
+      "description": "Build an image from a Dockerfile."
+    },
+    {
+      "example": "docker push <image>",
+      "description": "Upload an image to a registry."
+    },
+    {
+      "example": "docker login",
+      "description": "Authenticate with a container registry."
+    },
+    {
+      "example": "docker logout",
+      "description": "Log out from a container registry."
+    },
+    {
+      "example": "docker history <image>",
+      "description": "Show history of an image's layers.\n"
+    },
+    {
+      "example": "docker ps",
+      "description": "List running containers."
+    },
+    {
+      "example": "docker ps -a",
+      "description": "List all containers, including stopped ones."
+    },
+    {
+      "example": "docker ps -f <filter>",
+      "description": "List containers matching a filter."
+    },
+    {
+      "example": "docker ps -s",
+      "description": "Show container sizes."
+    },
+    {
+      "example": "docker run <image>",
+      "description": "Run a container from an image."
+    },
+    {
+      "example": "docker run -it <image>",
+      "description": "Run a container interactively with a terminal."
+    },
+    {
+      "example": "docker run -d <image>",
+      "description": "Run a container in detached mode."
+    },
+    {
+      "example": "docker start <container_id>",
+      "description": "Start a stopped container."
+    },
+    {
+      "example": "docker stop <container_id>",
+      "description": "Gracefully stop a running container."
+    },
+    {
+      "example": "docker restart <container_id>",
+      "description": "Restart a container."
+    },
+    {
+      "example": "docker rm <container_id>",
+      "description": "Remove a container."
+    },
+    {
+      "example": "docker exec -it <container_id> <shell>",
+      "description": "Run a command inside a running container."
+    },
+    {
+      "example": "docker kill <container_id>",
+      "description": "Forcefully stop a running container."
+    },
+    {
+      "example": "docker create <image>",
+      "description": "Create a new container without running it."
+    },
+    {
+      "example": "docker pause <container_id>",
+      "description": "Pause processes inside a container.\n"
+    },
+    {
+      "example": "docker attach <container_ id>",
+      "description": "Attach to a running container's output."
+    },
+    {
+      "example": "docker commit <container_id> <image>",
+      "description": "Create a new image from a container."
+    },
+    {
+      "example": "docker commit -p <container_id> <image>",
+      "description": "Preserve container changes when committing."
+    },
+    {
+      "example": "docker diff <container_id>",
+      "description": "Show filesystem changes in a container."
+    },
+    {
+      "example": "docker events",
+      "description": "Stream real-time Docker events."
+    },
+    {
+      "example": "docker events -f <filter>",
+      "description": "Filter Docker events."
+    },
+    {
+      "example": "docker events --since <time>",
+      "description": "Show events since a specific time."
+    },
+    {
+      "example": "docker events --until <time>",
+      "description": "Show events until a specific time."
+    },
+    {
+      "example": "docker load <archive>",
+      "description": "Load an image from a tar archive."
+    },
+    {
+      "example": "docker tag <image> <tag>",
+      "description": "Create a tag for an image."
+    },
+    {
+      "example": "docker top <container_id>",
+      "description": "Show running processes in a container."
+    },
+    {
+      "example": "docker wait <container_id>",
+      "description": "Block until a container stops and get exit code.\n"
+    },
+    {
+      "example": "docker logs <container_id>",
+      "description": "Show logs from a container."
+    },
+    {
+      "example": "docker logs -details <container_id>",
+      "description": "Show detailed log information."
+    },
+    {
+      "example": "docker logs -f <container_id>",
+      "description": "Stream live logs."
+    },
+    {
+      "example": "docker logs -t <container_id>",
+      "description": "Show logs with timestamps."
+    },
+    {
+      "example": "docker logs --until <time> <container_id>",
+      "description": "Show logs until a specific time."
+    },
+    {
+      "example": "docker logs -n <number> <container_id>",
+      "description": "Show the last N lines of logs.\n"
+    },
+    {
+      "example": "docker manifest",
+      "description": "Manage Docker image manifests."
+    },
+    {
+      "example": "docker network",
+      "description": "Manage Docker networks."
+    },
+    {
+      "example": "docker plugin",
+      "description": "Manage Docker plugins."
+    },
+    {
+      "example": "docker volume",
+      "description": "Manage storage volumes."
+    },
+    {
+      "example": "docker system",
+      "description": "Manage Docker system-wide data."
+    },
+    {
+      "example": "docker trust",
+      "description": "Manage content trust for images."
+    },
+    {
+      "example": "docker context",
+      "description": "Manage Docker contexts."
+    },
+    {
+      "example": "docker builder",
+      "description": "Manage the build process."
+    }
+  ]
+}
