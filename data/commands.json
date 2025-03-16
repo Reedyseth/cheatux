@@ -294,5 +294,111 @@
       "example": "docker builder",
       "description": "Manage the build process."
     }
+  ],
+  "find": [
+    {
+      "example": "find . -name \"my.txt\"",
+      "description": "Find all files named \"my.txt\" in the current directory."
+    },
+    {
+      "example": "find . -type d -name \"mydir\"",
+      "description": "Find all directories named \"mydir\""
+    },
+    {
+      "example": "find . -type f -name \"*.jpg\"",
+      "description": "Find all \"jpg\" files."
+    },
+    {
+      "example": "find . -type f -size +100M",
+      "description": "Find all files larger than 100MB"
+    },
+    {
+      "example": "find . -type f -size +100M -size -500M",
+      "description": "Find files with a specific size range."
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    },
+    {
+      "example": "",
+      "description": ""
+    }
   ]
 }
